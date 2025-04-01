@@ -24,11 +24,6 @@ public class SupermercadoModel {
 
 	public void embolsaArticulo() {
 		
-		List<Object[]> lista = null;
-		
-		lista = new ArrayList<Object[]>();
-		
-		lista = db.executeQueryArray("SELECT * FROM ARTICULOPEDIDO WHERE IDPEDIDO = ?", 1);
 	}
 	
 }
