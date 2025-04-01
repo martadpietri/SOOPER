@@ -1,5 +1,6 @@
 package sooper.demo.tkrun;
 
+
 import javax.swing.JFrame;
 import net.miginfocom.swing.MigLayout;
 import javax.swing.JTextField;
@@ -125,4 +126,11 @@ public void rellenaListaArticulos(Object[] rowArticulo) {
 		this.table.setModel(modeloArticulo); //una vez la tenga añadida al modelo, muestro el modelo en la tabla
 		
 	}
+
+public JTable getTable() {
+	// TODO Auto-generated method stub
+	return this.table;
+}
+
+
 }

@@ -22,7 +22,10 @@ public class SupermercadoModel {
 		
 	}
 
-	public void embolsaArticulo() {
+	public void embolsarArticulo(int idArticulo) {
+		
+		String sql = "UPDATE articuloPedido SET embolsado = ?  WHERE idArticulo = ? )";		
+		db.executeUpdate(sql, 1, idArticulo);
 		
 	}
 	

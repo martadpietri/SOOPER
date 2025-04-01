@@ -11,7 +11,7 @@ INSERT INTO articulo(idArticulo,volumen,nombre,categoria) VALUES
 (259,5,"mayonesa musa","no perecedero"),
 (260,9,"agua font vella","no perecedero");
 
-INSERT INTO articuloPedido(idArticulo,idPedido,volumen,estado) VALUES
+INSERT INTO articuloPedido(idArticulo,idPedido,volumen,embolsado) VALUES
 (25,1,6,0),
 (28,1,3,0),
 (63,1,8,0);

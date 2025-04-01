@@ -1,5 +1,5 @@
 
-Implementa en la ventana principal del Supermercado la siguiente funcionalidad:
+Implementa en la ventana principal del Supermercado las siguientes funcionalidades:
 
 Introduce un numero de pedido valido (1) para que, al hacer click en el boton añadir pedido, me muestre en la tabla
 los articulos relacionados a ese pedido.

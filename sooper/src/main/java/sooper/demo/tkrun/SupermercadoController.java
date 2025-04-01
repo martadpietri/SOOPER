@@ -49,10 +49,16 @@ public class SupermercadoController {
 	}
 
 	public void embolsarArticulos() {
-		// TODO Auto-generated method stub
-		model.embolsaArticulo();
+		
+		String idArticulo;
+			
+		idArticulo = this.view.getTable().getValueAt(this.view.getTable().getSelectedRow(),0).toString();
+
+		this.model.embolsarArticulo(Integer.parseInt(idArticulo));
 		
 	}
+	
+
 
 }
 
