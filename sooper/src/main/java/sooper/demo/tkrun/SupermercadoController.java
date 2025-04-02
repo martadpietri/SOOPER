@@ -56,6 +56,21 @@ public class SupermercadoController {
 
 		this.model.embolsarArticulo(Integer.parseInt(idArticulo));
 		
+		this.view.getModeloArticulo().removeRow(this.view.getTable().getSelectedRow());
+		
+		Object[] fila = null;
+		
+		this.view.getModeloListaEmbolsados().addRow(fila);
+		
+		//para sacar el numero de fila
+		
+		int numeroFila = this.view.getModeloListaEmbolsados().getRowCount();
+			
+		this.view.getModeloListaEmbolsados().setValueAt(idArticulo,numeroFila-1,0);
+		
+		this.view.getModeloListaEmbolsados().setValueAt("999",numeroFila-1,1);
+		
+		
 	}
 	
 

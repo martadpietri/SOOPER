@@ -132,5 +132,13 @@ public JTable getTable() {
 	return this.table;
 }
 
+public DefaultTableModel getModeloArticulo () {
+	
+	return this.modeloArticulo ;	
+}
+
+public DefaultTableModel getModeloListaEmbolsados() {
+	return this.modeloListaEmbolsados;
+}
 
 }
